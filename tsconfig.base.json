@@ -15,7 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@my-wallet/core": ["libs/core/src/index.ts"]
+      "@my-wallet/core": ["libs/core/src/index.ts"],
+      "@my-wallet/types": ["libs/types/src/index.ts"],
+      "@my-wallet/ui": ["libs/ui/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
