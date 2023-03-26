@@ -5,6 +5,8 @@ export interface ConnectorState {
     isMetamaskInstalled: boolean
     connectedAccount: ConnectedAccount
     isWrongNetwork: boolean
+    connect(): void
+    disconnect(): void
 }
 
 export interface ConnectionProviderProps {
